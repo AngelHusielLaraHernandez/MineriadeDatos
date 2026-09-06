@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}LLM Utilizado }{1}{section.1}%
+\contentsline {section}{\numberline {2}Prompt Completo para la IA}{1}{section.2}%
+\contentsline {section}{\numberline {3}Respuesta del modelo de IA (gemini)}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Métricas Generales del Dataset}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tasa de Supervivencia Agrupada (Descriptivo)}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Extremos de Probabilidad (Cruce de Variables)}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Hallazgos Críticos del Comportamiento de los Datos}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Análisis Gráfico e Interpretaciones}{4}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Conclusión Cualitativa: Prioridades de Evacuación y Rescate}{5}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Conversacion con la IA}{5}{section.4}%
+\contentsline {section}{Referencias}{5}{section*.9}%

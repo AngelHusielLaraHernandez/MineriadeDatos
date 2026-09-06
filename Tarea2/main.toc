@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Parte 1. Análisis Estadístico con Excel}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Creacion del excel a partir del documento dado:}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Creacion de tablas pivotes o tablas dinamicas recomendadas}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Creacion de tablas pivote o tablas dinamicas}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Interpretacion de la tablas pivote o tablas dinamicas}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Análisis de información utilizando tablas pivóte o tablas dinámicas}{6}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Conclusion (Parte 1)}{8}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Parte 2. Análisis Estadístico con PowerBI}{8}{section.2}%
+\contentsline {section}{Referencias}{9}{section*.12}%
