@@ -7,4 +7,9 @@
 \contentsline {subsection}{\numberline {1.5}Análisis de información utilizando tablas pivóte o tablas dinámicas}{6}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Conclusion (Parte 1)}{8}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Parte 2. Análisis Estadístico con PowerBI}{8}{section.2}%
-\contentsline {section}{Referencias}{9}{section*.12}%
+\contentsline {subsection}{\numberline {2.1}Seleccion de archivo de trabajo}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cargar ejemplo 1:}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}¿Que sucede en la seccion de la tabla?}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Agregar grafico}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Seleccion de opciones de status de solicitud}{13}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Analisis de Correlacion}{16}{subsection.2.6}%

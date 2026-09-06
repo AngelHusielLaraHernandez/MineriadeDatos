@@ -410,11 +410,288 @@ que son las en blanco en este caso.
 
 \section{Parte 2. Análisis Estadístico con PowerBI}
 
+\subsection{Seleccion de archivo de trabajo}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/part2/image1.png}
+    \caption{Inicio de la pantalla al seleccionar la opcion de cargar datos.}
+    \label{fig:Tabla_PowerBI}
+\end{figure}
+
+Despues de esto se seleccionara Libro de excel y se seleccionaran todos los archivos para poder cargar el csv:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/part2/image2.png}
+    \caption{Selección del archivo de csv para cargar los datos.}
+    \label{fig:Seleccion_Archivo_Excel}
+\end{figure}
+
+Ahora se mostraran los detalles del contenido del archivo en formato de tabala como vista previa para darle a cargar:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/part2/image3.png}
+    \caption{Vista previa del contenido del archivo de csv.}
+    \label{fig:Vista_Previa_Archivo_Excel}
+\end{figure}
+
+Ahora con los datos cargador los tendremos que seleccionar para que aparezcan en formato de tabla:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/part2/image4.png}
+    \caption{Pantalla de inicio de PowerBI con los datos cargados, pero pantalla en blanco.}
+    \label{fig:Inicio_PowerBI}
+\end{figure}
+
+Despues de esto, se seleccionara la tabla y aparecer vacia a espera de seleccionar datos en la parte superior derecha:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/part2/image5.png}
+    \caption{Pantalla de inicio de PowerBI con la tabla seleccionada, pero sin datos.}
+    \label{fig:Tabla_PowerBI_Sin_Datos}
+\end{figure}
+
+\newpage
+\subsection{Cargar ejemplo 1:}
+
+Para la primera parte de esta actividad, primero seleccionaremos los datos \texttt{CUENTA\_ASIGNADA}, y \texttt{LINEA\_CREDITO\_FINAL}, es por eso que la tabla aparecera de la siguiente forma:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{image/image7.png}
+    \caption{Pantalla de inicio de PowerBI con la tabla seleccionada y los datos cargados.}
+    \label{fig:Tabla_PowerBI_Con_Datos}
+\end{figure}
+
+No obstante, en nuestro caso, solo se muestra una sola fila, la razon de esto es por que la Linea de credito final esta en modo de sumar, es por eso que lo tenemos que cambiar a No resumir, para 
+que nos muestre todos los datos de la tabla, para esto se hace click en la flecha de la columna y se selecciona la opcion de No resumir:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{image/image8.png}
+    \caption{Pantalla de inicio de PowerBI con la tabla seleccionada y los datos cargados, pero sin resumir.}
+    \label{fig:Tabla_PowerBI_Sin_Resumir}
+\end{figure}
+
+\subsection{¿Que sucede en la seccion de la tabla?}
+
+En este caso, al observar la tabla, 
+vemos directamente que la columna de 
+\texttt{LINEA\_CREDITO\_FINAL} 
+ya nos da todos los montos de tal forma que esta escalonada, y esto se debe a que como explique antes 
+fue por que desactivamos la función de resumir. 
+
+
+\subsection{Agregar grafico}
+
+Ahora bien, se nos pide agregar un grafico de barras, e donde en este caso 
+vamos a seleccionar el grafico de barras apiladas, quedando de la siguiente forma:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{image/image91.png}
+    \caption{Pantalla de inicio de PowerBI con la tabla seleccionada (datos sin cargar).}
+    \label{fig:Grafico_Barras_Apiladas}
+\end{figure}
+
+Despues de esto, vamos a seleccionar la columna de \texttt{LINEA\_CREDITO\_FINAL} y la vamos a arrastrar a la parte de valores, y despues vamos a seleccionar la columna de \texttt{CUENTA\_ASIGNADA} y la vamos a arrastrar a la parte de ejes, quedando de la siguiente forma:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image9.png}
+    \caption{Pantalla de inicio de PowerBI con el grafico de barras apiladas.}
+    \label{fig:Grafico_Barras_Apiladas_Final}
+\end{figure}
+
+En seguida de esto con la seccion de \texttt{STATUS\_SOLICITUD} la vamos arrastrar a filtros de esta pagina, en la tabla, donde se nos desplegara un menu para seleccionar las siguientes opciones:
+
+\begin{enumerate}
+    \item Aprobada
+    \item Cancelada
+    \item En proceso
+    \item Pendiente
+    \item Rechazada
+\end{enumerate}
+
+\subsection{Seleccion de opciones de status de solicitud}
+
+\textbf{¿Que ocurre si seleccionas cada uno de los filtros? Explica que pasa en cada caso, y ¿Por que crees que cambia la tabla del lazo izquierdo?}
+
+En este caso, con respecto a la seccion de los 
+filtros, la grafica directamente 
+cambia porque está 
+sumando la \texttt{LINEA\_CREDITO\_FINAL}. 
+No obstante, el filtro
+solo le asigna un monto de dinero real a 
+las cuentas que pasaron todos los filtros de aprobación.
+Para el resto de los estatus, al no existir crédito nos da cero, 
+y es por eso que aparece vacio lo que provoca 
+que se muestre en blanco dependiendo de la selección. 
+
+\textbf{Seleccion aprobada}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image10.png}
+    \caption{Grafico, con seleccion aprobada.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro}
+\end{figure}
+
+En este caso,con el filtro de ``Aprobada'', 
+vemos directamente que se ponen las barras 
+con valores, esto para la parte de recibos de nomina, de propiedad activo fijo que son las mas destacadas, 
+esto, es por que casi todo el volumen se 
+centra en los clientes que presentaron ``RECIBOS DE NOMINA'' y 
+``PROPIEDAD ACTIVO FIJO'' como lo acabo de explicar. 
+
+Esto nos dice que a estas solicitudes sí se les asignó un límite de crédito.
+
+\textbf{Seleccion cancelada}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image11.png}
+    \caption{Grafico con seleccion cancelada.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro_Seleccionado}
+\end{figure}
+
+Ahora bien, al seleccionar 
+``Cancelada'', 
+la grafica no nos muestra nada, esto por que se va en 0. 
+Lo que nos dice que directamente no se
+registro ningun dinero para los trámites que fueron cancelados.
+
+\textbf{Seleccion En proceso}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image12.png}
+    \caption{Grafico con seleccion en proceso.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro_Seleccionado_En_Proceso}
+\end{figure}
+
+Para esto, es la misma explicacion que la anterior, al seleccionar ``En proceso'',
+vemos que la grafica no nos muestra nada, esto por que se va en 0.
+
+
+\textbf{Seleccion Pendiente}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image13.png}
+    \caption{Grafico con seleccion pendiente.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro_Seleccionado_Pendiente}
+\end{figure}
+
+En este caso, la grafica nos dice que tiene
+un comportamiento atípico. 
+Sí aparecen las barras para ``RECIBOS DE NOMINA'' y ``PROPIEDAD ACTIVO FIJO'', 
+pero los valores son minúsculos donde solo tenemos 120 y 70.
+Esto dice que son datos que salen volando o que son de residuo, 
+probablemtne de capturas erróneas del sistema para unas cuantas cuentas.
+
+\textbf{Seleccion Rechazada}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image14.png}
+    \caption{Grafico con seleccion rechazada.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro_Seleccionado_Rechazada}
+\end{figure}
+
+Ya por último para los filtros individuales, vuelve a mostrar un gráfico totalmente en cero. 
 
 \newpage
 
+\textbf{Seleccionada todas}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image15.png}
+    \caption{Grafico con seleccionadas todas las opciones.}
+    \label{fig:Grafico_Barras_Apiladas_Filtro_Seleccionado_Todas}
+\end{figure}
+
+Aqui vemos un desglose general, de una combinacion de todos los filtros, donde vemos que la mayoria de los datos se concentran en las opciones
+que anteriormente se explico, al final de todo es ina combinacion de todo lo anterior, y se puede ver 
+que nuestras deducciones fueron correctas en los filtros que no aparecian, por que directamente dan 0 y ni si quiera se ve la barra que lo represetna 
+por que no hay ningun dato que se haya registrado para estas opciones, y es por eso que no se ve reflejado en la grafica.
+
+
+\subsection{Analisis de Correlacion}
+
+Ahora, lo primero es crear una hoja nueva llamda correlacion:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{image/image19.png}
+    \caption{Pantalla de inicio de PowerBI con la hoja nueva llamada correlacion.}
+    \label{fig:Hoja_Correlacion}
+\end{figure}
+
+\newpage
+
+Despues de esto, se seleccionara la opcion de grafico en el cual sera el de puntos dispersos, donde se volveran a colocar los datos de \texttt{EDAD} y \texttt{INGRESO\_INFERIDO}, quedando de la siguiente forma:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image16.png}
+    \caption{Grafico de correlacion entre edad e ingreso inferido.}
+    \label{fig:Grafico_Correlacion}
+\end{figure}
+No obstante, el grafico solo muestra un punto, esto es por que la columna de \texttt{EDAD} esta en modo de resumir, es por eso que lo tenemos que cambiar a No resumir:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image17.png}
+    \caption{Grafico de correlacion entre edad e ingreso inferido, pero sin resumir.}
+    \label{fig:Grafico_Correlacion_Sin_Resumir}
+\end{figure}
+
+Pero sigue sin pareserse a la grafica del documento, es por eso, que tenemos que cambiar de sumar a promedio la seccion de \texttt{INGRESO\_INFERIDO}, quedando de la siguiente forma:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{image/image18.png}
+    \caption{Grafico de correlacion entre edad e ingreso inferido, pero sin resumir y con promedio.}
+    \label{fig:Grafico_Correlacion_Sin_Resumir_Promedio}
+\end{figure}
+
+\textbf{Interpretacion de la grafica}
+
+En este caso, la gráfica al ser de dispersion, 
+vamos una linea de puntos ascendente, en este caso es definida y no hay caidas, es una crecimiento total. 
+En el eje horizontal tenemos la variable de edad 
+donde tenemos desde los 25 hasta los 60 años, 
+y en el eje vertical tenemos el Promedio de ingreso inferido,
+escaando desde la base cero hasta alcanzar los 100 mil.
+
+Esto nos dice directamente que existe una 
+\textbf{correlación positiva} 
+fuerte entre ambas variables. 
+Es por esto, que se demuestra 
+que a medida que la edad del cliente avanza, 
+su nivel de ingresos promedio también crece. 
+
+De hecho, si nos damos cuenta casi al inicio, 
+notamos que en los clientes más jóvenes que son los de 25 años, 
+el ingreso es casi nulo. 
+Ahora bien, cuando la edad se acerca a los 40 y 50 años, 
+la separación entre los puntos es más grande, 
+esto hace que aumente hasta alcanzar su pico llegado casi a los 
+100 mil para el grupo de clientes de 60 años.
+
+Ya por último, esta distribución nos explica 
+un comportamiento real de negocio: 
+la experiencia laboral que se va haciendo
+con el paso de los años, esto fue tal cual 
+como lo vimos en clase.
+
+%\newpage
 % Impresión Referencias
-\nocite{*}
-\printbibliography[heading=bibintoc, title={Referencias}]
+%\nocite{*}
+%\printbibliography[heading=bibintoc, title={Referencias}]
 
 \end{document}

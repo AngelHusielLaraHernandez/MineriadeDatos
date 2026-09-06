@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  5 SEP 2026 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  6 SEP 2026 07:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1099,12 +1099,12 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 6.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<portada_img/der.png, id=67, 332.24126pt x 393.47pt>
+<portada_img/der.png, id=87, 332.24126pt x 393.47pt>
 File: portada_img/der.png Graphic file (type png)
 <use portada_img/der.png>
 Package pdftex.def Info: portada_img/der.png  used on input line 8.
 (pdftex.def)             Requested size: 56.9055pt x 67.38733pt.
-<portada_img/izq.png, id=69, 254.9525pt x 301.125pt>
+<portada_img/izq.png, id=89, 254.9525pt x 301.125pt>
 File: portada_img/izq.png Graphic file (type png)
 <use portada_img/izq.png>
 Package pdftex.def Info: portada_img/izq.png  used on input line 14.
@@ -1120,17 +1120,17 @@ LaTeX Info: Redefining \% on input line 1.
 \openout6 = `main.toc'.
 
  [2]
-<image/part1/image1.png, id=95, 1185.42876pt x 763.85374pt>
+<image/part1/image1.png, id=120, 1185.42876pt x 763.85374pt>
 File: image/part1/image1.png Graphic file (type png)
 <use image/part1/image1.png>
 Package pdftex.def Info: image/part1/image1.png  used on input line 203.
 (pdftex.def)             Requested size: 377.62634pt x 243.33092pt.
-<image/part1/image2.png, id=96, 740.7675pt x 453.695pt>
+<image/part1/image2.png, id=121, 740.7675pt x 453.695pt>
 File: image/part1/image2.png Graphic file (type png)
 <use image/part1/image2.png>
 Package pdftex.def Info: image/part1/image2.png  used on input line 210.
 (pdftex.def)             Requested size: 377.62634pt x 231.28447pt.
-<image/part1/image3.png, id=97, 721.69624pt x 446.66875pt>
+<image/part1/image3.png, id=122, 721.69624pt x 446.66875pt>
 File: image/part1/image3.png Graphic file (type png)
 <use image/part1/image3.png>
 Package pdftex.def Info: image/part1/image3.png  used on input line 217.
@@ -1149,12 +1149,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.221 
        [1 <./image/part1/image1.png> <./image/part1/image2.png>]
-<image/part1/image4.png, id=105, 729.72626pt x 448.67625pt>
+<image/part1/image4.png, id=130, 729.72626pt x 448.67625pt>
 File: image/part1/image4.png Graphic file (type png)
 <use image/part1/image4.png>
 Package pdftex.def Info: image/part1/image4.png  used on input line 224.
 (pdftex.def)             Requested size: 377.62634pt x 232.18336pt.
-<image/part1/image5.png, id=106, 1450.41875pt x 822.07124pt>
+<image/part1/image5.png, id=131, 1450.41875pt x 822.07124pt>
 File: image/part1/image5.png Graphic file (type png)
 <use image/part1/image5.png>
 Package pdftex.def Info: image/part1/image5.png  used on input line 231.
@@ -1173,7 +1173,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.235 
        [2 <./image/part1/image3.png> <./image/part1/image4.png>]
-<image/image1.png, id=114, 653.44125pt x 220.825pt>
+<image/image1.png, id=139, 653.44125pt x 220.825pt>
 File: image/image1.png Graphic file (type png)
 <use image/image1.png>
 Package pdftex.def Info: image/image1.png  used on input line 242.
@@ -1187,12 +1187,12 @@ File: portada_img/izq.png Graphic file (type png)
 Package pdftex.def Info: portada_img/izq.png  used on input line 255.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
  [3 <./image/part1/image5.png> <./image/image1.png>]
-<image/image2.png, id=123, 237.88875pt x 127.47626pt>
+<image/image2.png, id=148, 237.88875pt x 127.47626pt>
 File: image/image2.png Graphic file (type png)
 <use image/image2.png>
 Package pdftex.def Info: image/image2.png  used on input line 262.
 (pdftex.def)             Requested size: 377.62634pt x 202.36726pt.
-<image/image3.png, id=124, 684.5575pt x 203.76125pt>
+<image/image3.png, id=149, 684.5575pt x 203.76125pt>
 File: image/image3.png Graphic file (type png)
 <use image/image3.png>
 Package pdftex.def Info: image/image3.png  used on input line 274.
@@ -1206,7 +1206,7 @@ File: portada_img/izq.png Graphic file (type png)
 Package pdftex.def Info: portada_img/izq.png  used on input line 303.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
  [4 <./image/image2.png> <./image/image3.png>]
-<image/image4.png, id=134, 483.8075pt x 291.0875pt>
+<image/image4.png, id=159, 483.8075pt x 291.0875pt>
 File: image/image4.png Graphic file (type png)
 <use image/image4.png>
 Package pdftex.def Info: image/image4.png  used on input line 313.
@@ -1220,7 +1220,7 @@ File: portada_img/izq.png Graphic file (type png)
 Package pdftex.def Info: portada_img/izq.png  used on input line 318.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
  [5 <./image/image4.png>]
-<image/image5.png, id=144, 508.90125pt x 172.645pt>
+<image/image5.png, id=169, 508.90125pt x 172.645pt>
 File: image/image5.png Graphic file (type png)
 <use image/image5.png>
 Package pdftex.def Info: image/image5.png  used on input line 345.
@@ -1234,7 +1234,7 @@ File: portada_img/izq.png Graphic file (type png)
 Package pdftex.def Info: portada_img/izq.png  used on input line 349.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
  [6]
-<image/image6.png, id=150, 376.40625pt x 231.86626pt>
+<image/image6.png, id=175, 376.40625pt x 231.86626pt>
 File: image/image6.png Graphic file (type png)
 <use image/image6.png>
 Package pdftex.def Info: image/image6.png  used on input line 378.
@@ -1248,24 +1248,200 @@ File: portada_img/izq.png Graphic file (type png)
 Package pdftex.def Info: portada_img/izq.png  used on input line 385.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
  [7 <./image/image5.png> <./image/image6.png>]
+<image/part2/image1.png, id=185, 1912.14375pt x 1078.0275pt>
+File: image/part2/image1.png Graphic file (type png)
+<use image/part2/image1.png>
+Package pdftex.def Info: image/part2/image1.png  used on input line 417.
+(pdftex.def)             Requested size: 377.62634pt x 212.88753pt.
+<image/part2/image2.png, id=186, 405.01312pt x 201.75375pt>
+File: image/part2/image2.png Graphic file (type png)
+<use image/part2/image2.png>
+Package pdftex.def Info: image/part2/image2.png  used on input line 426.
+(pdftex.def)             Requested size: 377.62634pt x 188.11545pt.
 File: portada_img/der.png Graphic file (type png)
 <use portada_img/der.png>
-Package pdftex.def Info: portada_img/der.png  used on input line 414.
+Package pdftex.def Info: portada_img/der.png  used on input line 430.
 (pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
 File: portada_img/izq.png Graphic file (type png)
 <use portada_img/izq.png>
-Package pdftex.def Info: portada_img/izq.png  used on input line 414.
+Package pdftex.def Info: portada_img/izq.png  used on input line 430.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
- [8]
+ [8 <./image/part2/image1.png>]
+<image/part2/image3.png, id=194, 1914.40219pt x 1078.0275pt>
+File: image/part2/image3.png Graphic file (type png)
+<use image/part2/image3.png>
+Package pdftex.def Info: image/part2/image3.png  used on input line 435.
+(pdftex.def)             Requested size: 377.62634pt x 212.6408pt.
+<image/part2/image4.png, id=195, 1906.87407pt x 1076.52188pt>
+File: image/part2/image4.png Graphic file (type png)
+<use image/part2/image4.png>
+Package pdftex.def Info: image/part2/image4.png  used on input line 444.
+(pdftex.def)             Requested size: 377.62634pt x 213.18155pt.
 File: portada_img/der.png Graphic file (type png)
 <use portada_img/der.png>
-Package pdftex.def Info: portada_img/der.png  used on input line 420.
+Package pdftex.def Info: portada_img/der.png  used on input line 448.
 (pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
 File: portada_img/izq.png Graphic file (type png)
 <use portada_img/izq.png>
-Package pdftex.def Info: portada_img/izq.png  used on input line 420.
+Package pdftex.def Info: portada_img/izq.png  used on input line 448.
 (pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
- [9] (./main.aux
+ [9 <./image/part2/image2.png> <./image/part2/image3.png>]
+<image/part2/image5.png, id=204, 870.25125pt x 474.27188pt>
+File: image/part2/image5.png Graphic file (type png)
+<use image/part2/image5.png>
+Package pdftex.def Info: image/part2/image5.png  used on input line 453.
+(pdftex.def)             Requested size: 377.62634pt x 205.80002pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 458.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 458.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [10 <./image/part2/image4.png> <./image/part2/image5.png>]
+<image/image7.png, id=213, 770.12718pt x 407.27156pt>
+File: image/image7.png Graphic file (type png)
+<use image/image7.png>
+Package pdftex.def Info: image/image7.png  used on input line 465.
+(pdftex.def)             Requested size: 330.42033pt x 174.73805pt.
+<image/image8.png, id=214, 865.73438pt x 519.44063pt>
+File: image/image8.png Graphic file (type png)
+<use image/image8.png>
+Package pdftex.def Info: image/image8.png  used on input line 475.
+(pdftex.def)             Requested size: 330.42033pt x 198.25342pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 487.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 487.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [11 <./image/image7.png> <./image/image8.png>]
+<image/image91.png, id=225, 1372.37718pt x 700.86844pt>
+File: image/image91.png Graphic file (type png)
+<use image/image91.png>
+Package pdftex.def Info: image/image91.png  used on input line 496.
+(pdftex.def)             Requested size: 330.42033pt x 168.74658pt.
+<image/image9.png, id=226, 1278.27562pt x 584.1825pt>
+File: image/image9.png Graphic file (type png)
+<use image/image9.png>
+Package pdftex.def Info: image/image9.png  used on input line 505.
+(pdftex.def)             Requested size: 377.62634pt x 172.57301pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 511.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 511.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [12 <./image/image91.png> <./image/image9.png>]
+<image/image10.png, id=235, 1283.54532pt x 581.92406pt>
+File: image/image10.png Graphic file (type png)
+<use image/image10.png>
+Package pdftex.def Info: image/image10.png  used on input line 538.
+(pdftex.def)             Requested size: 377.62634pt x 171.20438pt.
+<image/image11.png, id=236, 1106.63437pt x 575.14874pt>
+File: image/image11.png Graphic file (type png)
+<use image/image11.png>
+Package pdftex.def Info: image/image11.png  used on input line 555.
+(pdftex.def)             Requested size: 377.62634pt x 196.25883pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 558.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 558.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [13 <./image/image10.png>]
+<image/image12.png, id=248, 1113.40968pt x 584.1825pt>
+File: image/image12.png Graphic file (type png)
+<use image/image12.png>
+Package pdftex.def Info: image/image12.png  used on input line 570.
+(pdftex.def)             Requested size: 377.62634pt x 198.12915pt.
+<image/image13.png, id=249, 1226.33156pt x 590.95781pt>
+File: image/image13.png Graphic file (type png)
+<use image/image13.png>
+Package pdftex.def Info: image/image13.png  used on input line 583.
+(pdftex.def)             Requested size: 377.62634pt x 181.96867pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 586.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 586.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [14 <./image/image11.png> <./image/image12.png>]
+<image/image14.png, id=258, 1134.48843pt x 588.69937pt>
+File: image/image14.png Graphic file (type png)
+<use image/image14.png>
+Package pdftex.def Info: image/image14.png  used on input line 599.
+(pdftex.def)             Requested size: 377.62634pt x 195.95117pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 606.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 606.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [15 <./image/image13.png> <./image/image14.png>]
+<image/image15.png, id=267, 1218.80344pt x 580.41844pt>
+File: image/image15.png Graphic file (type png)
+<use image/image15.png>
+Package pdftex.def Info: image/image15.png  used on input line 612.
+(pdftex.def)             Requested size: 377.62634pt x 179.83043pt.
+<image/image19.png, id=268, 846.91406pt x 677.53125pt>
+File: image/image19.png Graphic file (type png)
+<use image/image19.png>
+Package pdftex.def Info: image/image19.png  used on input line 629.
+(pdftex.def)             Requested size: 236.01556pt x 188.80801pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 634.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 634.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [16 <./image/image15.png> <./image/image19.png>]
+<image/image16.png, id=277, 1592.19844pt x 699.36281pt>
+File: image/image16.png Graphic file (type png)
+<use image/image16.png>
+Package pdftex.def Info: image/image16.png  used on input line 640.
+(pdftex.def)             Requested size: 377.62634pt x 165.86562pt.
+<image/image17.png, id=278, 1620.0525pt x 746.79pt>
+File: image/image17.png Graphic file (type png)
+<use image/image17.png>
+Package pdftex.def Info: image/image17.png  used on input line 648.
+(pdftex.def)             Requested size: 377.62634pt x 174.07127pt.
+<image/image18.png, id=279, 1815.03094pt x 735.49782pt>
+File: image/image18.png Graphic file (type png)
+<use image/image18.png>
+Package pdftex.def Info: image/image18.png  used on input line 657.
+(pdftex.def)             Requested size: 377.62634pt x 153.02258pt.
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 661.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 661.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [17 <./image/image16.png> <./image/image17.png>]
+File: portada_img/der.png Graphic file (type png)
+<use portada_img/der.png>
+Package pdftex.def Info: portada_img/der.png  used on input line 697.
+(pdftex.def)             Requested size: 36.0346pt x 42.67912pt.
+File: portada_img/izq.png Graphic file (type png)
+<use portada_img/izq.png>
+Package pdftex.def Info: portada_img/izq.png  used on input line 697.
+(pdftex.def)             Requested size: 36.13269pt x 42.67912pt.
+ [18 <./image/image18.png>] (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -1275,24 +1451,24 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 62D4AC8BAA02AF49E6BFB8886688859A;2544.
+(rerunfilecheck)             Checksum: F98FA98EC12547C7D44E510C5913657A;3700.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37534 strings out of 467525
- 729123 string characters out of 5418982
- 1754295 words of memory out of 5000000
- 65865 multiletter control sequences out of 15000+600000
- 634704 words of font info for 65 fonts, out of 8000000 for 9000
+ 37507 strings out of 467525
+ 728973 string characters out of 5418982
+ 1755961 words of memory out of 5000000
+ 65801 multiletter control sequences out of 15000+600000
+ 634526 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,94p,750b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 2254503 bytes).
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (20 pages, 3801824 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
