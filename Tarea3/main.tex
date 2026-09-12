@@ -1,0 +1,269 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --- PAQUETES DE IDIOMA
+\usepackage[spanish,mexico]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{iftex}
+
+\usepackage{pdfpages}
+
+% --- PAQUETES MATEMÁTICOS --
+\usepackage{amsmath}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+
+% --- PAQUETES GRÁFICOS Y DE DISEÑO ---
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{subcaption}
+\usepackage[table]{xcolor}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, shapes.multipart, positioning, arrows.meta, calc, shadows, decorations.pathreplacing,babel}
+
+% --- LISTAS ---
+\usepackage{enumitem}
+
+% --- PAQUETES DE CÓDIGO ---
+\usepackage{listings}
+% Configuración del estilo de listings
+\definecolor{codebg}{rgb}{0.95,0.95,0.95}   
+\definecolor{keyword}{rgb}{0.0,0.2,0.6}     
+\definecolor{comment}{rgb}{0.25,0.5,0.35}   
+\definecolor{string}{rgb}{0.6,0.0,0.0}      
+\definecolor{number}{rgb}{0.5,0.0,0.5}      
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+
+\lstset{
+  backgroundcolor=\color{backcolour},
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  stringstyle=\color{codepurple},
+  commentstyle=\color{codegray}\itshape,
+  numbers=left,
+  numberstyle=\tiny\color{codegray},
+  frame=single,
+  rulecolor=\color{black},
+  breaklines=true,
+  tabsize=4,
+  showstringspaces=false,
+  literate={á}{{\'a}}1
+           {é}{{\'e}}1
+           {í}{{\'i}}1
+           {ó}{{\'o}}1
+           {ú}{{\'u}}1
+           {Á}{{\'A}}1
+           {É}{{\'E}}1
+           {Í}{{\'I}}1
+           {Ó}{{\'O}}1
+           {Ú}{{\'U}}1
+           {ñ}{{\~n}}1
+           {Ñ}{{\~N}}1
+           {¿}{{\textquestiondown}}1
+           {¡}{{\textexclamdown}}1
+}
+
+% Estilo para código en C
+\lstdefinestyle{cstyle}{
+  language=C,
+  backgroundcolor=\color{backcolour},
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+    keywordstyle=[2]\color{yellow!70!orange}\bfseries,
+    morekeywords=[2]{MPI_Init,MPI_Comm_size,MPI_Comm_rank,MPI_Send,MPI_Recv,MPI_Scatter,MPI_Gather,MPI_Bcast,MPI_Reduce,MPI_Finalize},
+    emph={printf},
+    emphstyle=\color{blue}\bfseries,
+  stringstyle=\color{codepurple},
+  commentstyle=\color{codegray}\itshape,
+  numbers=left,
+  numberstyle=\tiny\color{codegray},
+  frame=single,
+  rulecolor=\color{black},
+  breaklines=true,
+  tabsize=4,
+  showstringspaces=false
+}
+
+% Definición del lenguaje Python para listings
+\lstdefinelanguage[LAB]{Python}{
+    morekeywords={False, None, True, and, as, assert, async, await, break,
+                                class, continue, def, del, elif, else, except, finally,
+                                for, from, global, if, import, in, is, lambda, nonlocal,
+                                not, or, pass, raise, return, try, while, with, yield,
+                                machine, Pin, PWM, ADC, Timer, sleep_ms, sleep_us},
+    morecomment=[l]{\#},
+    morestring=[b]",
+    morestring=[b]',
+    sensitive=true
+}
+
+% Estilo para salidas de consola/terminal
+\lstdefinestyle{output}{
+  backgroundcolor=\color{black!5},
+  basicstyle=\ttfamily\footnotesize,
+  numbers=none,
+  frame=single,
+  rulecolor=\color{black!30},
+  breaklines=true,
+  tabsize=4,
+  showstringspaces=false,
+  xleftmargin=0.5cm,
+  xrightmargin=0.5cm
+}
+
+% --- ESTILOS PARA DIAGRAMAS DE FLUJO (TIKZ) ---
+\tikzset{
+  startstop/.style={rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30},
+  process/.style={rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30},
+  decision/.style={diamond, aspect=2, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30},
+  io/.style={trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30},
+  arrow/.style={thick,->,>=stealth}
+}
+
+
+\definecolor{azulresultado}{HTML}{0072C6}
+\definecolor{rojoacarreo}{HTML}{FF0000}
+
+% --- RUTAS DE IMÁGENES ---
+\graphicspath{{img/}{portada_img/}}
+
+\definecolor{armblue}{RGB}{0, 113, 188}
+
+% --- ÍNDICE CON PUNTOS ---
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% --- CONFIGURACIÓN DE PÁGINA (GEOMETRÍA) ---
+\usepackage[
+    left=25mm, 
+    right=25mm,
+    top=35mm,
+    bottom=30mm,
+    headheight=77pt, 
+    papersize={21.59cm,27.94cm}
+]{geometry}
+
+% --- FORMATO DE TEXTO ---
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{parskip} 
+\usepackage{lipsum}  
+
+% --- VARIABLES GLOBALES ---
+\newcommand{\materia}{}
+
+% --- ENCABEZADOS Y PIES DE PÁGINA ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[L]{\includegraphics[height=1.5cm]{portada_img/der.png}}
+\fancyhead[R]{\includegraphics[height=1.5cm]{portada_img/izq.png}}
+\fancyfoot[C]{\thepage} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0pt}  
+
+% --- HIPERVÍNCULOS ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan
+}
+
+\begin{document}
+
+\input{portada.tex}
+
+\newpage
+
+\setcounter{page}{1}
+\singlespacing
+
+
+
+En el documental ``Nada es Privado'', aunque cuent auna historia que ya pase ahce un tiempo 
+no deja de ser lo mas parecido a los tiempos modernos y actuales 
+donde cualquiera puede reconocerse en el a estas alturas, 
+donde en el documental se centran en el caso de Cambridge
+Analytica, no obstante no es 
+solo es la historia de esta consultora de la cual es la que manipuló elecciones,
+si no que es ya directamente la misma evidencia de que mis datos, asi como de los emas 
+o los porpios \textit{likes}, tambien ya directamente algo de lo que se hablo y de loq ue me puse a pensr antes, es sobre 
+mis pausas al desplazarme por una publicación, 
+mis horarios de conexion en los cuales, se pueden
+convertirse en un material para predecir, 
+e incluso modificar, mis decisiones sin que yo lo perciba. 
+Esto aunque en el documental se demuestra con las elecciones 
+en mi caso lo puedo decir yo, con mi algoritmo de tik tok o de intagram con los reels,
+esto lo veo muy seguido cuando me quedo mucho tiempo en una publicacion diferente a la 
+de mi algoritmo y despues de eso, empeizan y empiezan a salir diferentes videos, que ya no tienen nada que ver con mi perosnalidad, los mismo 
+si se me va un like a una publicacion y luego lo quito, para el algoritmo le valio ese like y empieza a recomendar cosas nuevas.
+
+Ahora bien desde mi perspectiva que hace software o tiene minimo conocimientos de programacion, 
+entiendo perfectamente cómo se construye un modelo a partir de
+datos, ya que todos estos datos es necesario para poder tener 
+un mejor control de nuestros usuarios para hacer una aplicacion 
+personalizada y retenerlos, pero 
+lo que nunca me puse a pensar es el hecho de que 
+ese conocimiento técnico no me hizo
+inmune a ser tal cual datos para cualquier algoritmo.
+ 
+Ahora bien uno de los temas interesantes era lo de los patrones ocultos, donde se nos explica 
+que no fue necesario que yo revelara explícitamente mis miedos,
+prejuicios o inseguridades para que un sistema los infiriera. 
+Lo unico que importa es directamente las
+señales indirectas, estas son las que
+el contenido detiene mi scroll, o ya directamente lo
+qué ignoro, todo esto se usa para construir 
+un perfil psicológico más preciso de lo que yo mismo me conozco o amistades me conocen, al final de todo si me lo preguntan 
+lo veo mas como un ML que esta siendo entreado por nuestas personalidades, 
+si nos lo ponemos a pensar mejor, con cada aplicacion
+que me pone formulario que acepto sin leer, esto me recuerda a 
+un documental que vi de uber, que en sus inicios cuando eran casados por los inspectores de los estados unidos 
+ellos lo que hacian era indagar en su telefono para saber 
+quien era inspector y quien persona normal, esto para mandarles uber fantasma y evitar 
+las multas, todo se escondia en acuerdos y condiciones ocultos.
+
+ 
+Ahora bien, en otra parte con la que me llamo el interes fue mas en si 
+es la pregunta sobre \emph{qué se hace} con
+esos datos una vez recolectados. 
+Como tal en el documental muestra que 
+la información no se queda archivada de forma inerte, si no lo que 
+directamente lo que se hace es que se convierte en anuncios políticos
+dirigidos a mi ansiedad específica. 
+Esto tambien da una perspectiva etica, donde si nos 
+ponemos en los zapatados de los que 
+son de sistemas de ahi, yo tambien podre en algun 
+momento ser alguno de ellos, donde podría diseñar sistemas que
+recolecten datos de otras personas, 
+el documental funciona también como una
+advertencia ética para mi, por que como tal 
+voy a tener la responsabilidad tambien de tratar los datos de los demas
+a como mas me convenga o como me digan, en mi esta el
+aprovecharme de todo esto, el que decide
+qué se hace con esa información y con qué propósito, todo esto 
+juntado con lo que vimos en clase sobre la big data, donde 
+ellos tienen la capacidad de predecir y manipular el comportamiento humano,
+esto me hace pensar que en un futuro no muy lejano,
+si no se regula esto, vamos a tener un mundo donde
+la privacidad va a ser un lujo, donde la información
+va a ser un bien de consumo, donde la información va a ser
+un producto.
+
+\newpage
+\addcontentsline{toc}{section}{Referencias}
+\begin{thebibliography}{1}
+\bibitem{amer2019nada}
+Amer, K., \& Noujaim, J. (2019). \textit{Nada es Privado (The Great Hack)} [Documental]. Netflix.
+\url{https://www.netflix.com/mx/title/80117542}
+\end{thebibliography}
+
+\end{document}
