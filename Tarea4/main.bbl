@@ -1,0 +1,27 @@
+\begin{thebibliography}{}
+
+\bibitem[Coursera, 2025]{coursera2025}
+Coursera (2025).
+\newblock 9 data mining functionalities.
+\newblock \url{https://www.coursera.org/in/articles/data-mining-functionalities}.
+\newblock Consultado el 16 de septiembre de 2026.
+
+\bibitem[GeeksforGeeks, 2025]{geeksforgeeks}
+GeeksforGeeks (2025).
+\newblock Market basket analysis with sql.
+\newblock \url{https://www.geeksforgeeks.org/sql/market-basket-analysis-with-sql/}.
+\newblock Consultado el 16 de septiembre de 2026.
+
+\bibitem[IBM, 2026]{ibm_assoc}
+IBM (2026).
+\newblock Association rules node - ibm data platform.
+\newblock \url{https://dataplatform.cloud.ibm.com/docs/content/wsd/nodes/associationrules.html}.
+\newblock Consultado el 16 de septiembre de 2026.
+
+\bibitem[Oracle, 2024]{oracle_assoc}
+Oracle (2024).
+\newblock Association - oracle data mining concepts.
+\newblock \url{https://docs.oracle.com/en/database/oracle/oracle-database/19/dmcon/association.html}.
+\newblock Consultado el 16 de septiembre de 2026.
+
+\end{thebibliography}
